@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indhu Aruna | Web Developer</title>
+  <link rel="icon" href="/img/letter-i.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+    <div class="logo">Indhu Aruna</div>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#abt">About</a>
+        <a href="#sk">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <img src="img/indhu 6.jpeg" alt="Indhu">
+    <h1>Indhu Aruna S</h1>
+    <p class="tagline">Web Developer</p>
+    <div class="btn-container">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="/img/resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/ms_indhu_24?igsh=MWQ5cGRuajZzcXUybQ=="><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/indhu-aruna-s-87571a347"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Aruna246"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+  <section id="abt">
+  <section class="about-section">
+    <h2 class="about-heading">About Me</h2>
+    <div class="about-card">
+      <img src="/img/indhu 1.jpeg" alt="Indhu" class="about-img animated-img" />
+      <div class="about-text">
+        <p>
+          <p>Hello, I am <strong>Indhu Aruna S</strong>, a passionate Web Developer from India. I specialize in Front-End Web Development and enjoy building beautiful and user-friendly websites. I have experience in technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, and <strong>C</strong>. Let's build something amazing together!</p>
+        </p>
+      </div>
+    </div>
+  </section>
+  </section>
+<section id="sk">
+  <section class="skills-section">
+    <h2 class="skills-heading">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="/img/html.png" alt="HTML" />
+        <p>HTML</p>
+      </div>
+      <div class="skill-card">
+        <img src="/img/css.png" alt="CSS" />
+        <p>CSS</p>
+      </div>
+      <div class="skill-card">
+        <img src="/img/js.png" alt="JavaScript" />
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <img src="/img/python.png" alt="Canva" />
+        <p>Python</p>
+      </div>
+      <div class="skill-card">
+        <img src="/img/c-sharp.png" alt="CapCut" />
+        <p>C</p>
+      </div>
+    </div>
+  </section>
+  </section>
+  <section id="education">
+    <h2 style="text-align: center;">Education</h2>
+    <div class="content">
+      <img src="/img/indhu 6.jpeg" alt="Education">
+      <div>
+        <h3>Bachelor of Engineering (B.E ECE)</h3>
+        <ul>
+          <li>Currently pursuing at Thanthai Periyar Government Institute of Technology</li>
+          <li>Focused on programming and software development</li>
+        
+          <li><strong>Web Development Internship</strong> – 1 month internship on front-end technologies (HTML, CSS, JS) at <strong>Infeara Secure Technologies</strong></li>
+          <li>Combining technical knowledge with creativity in web development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-section">
+      <img src="img/project.avif" alt="Project Thumbnail">
+      <div class="project-content">
+        <h3>Portfolio Website</h3>
+        <p>This is my first personal portfolio website project. It showcases my basic web development skills using HTML, CSS, and JavaScript. The site includes sections like About Me, Projects, Skills, and Contact. I created this to practice responsive design and layout techniques. This project reflects my learning journey and future potential in web development.</p>
+      </div>
+    </div>
+  </section>
+<section id="contact"> 
+<div class="cont-body">
+  <div class="container">
+    <div class="left-section">
+      <h2>Let's Work Together</h2>
+      <p>
+        Interested in collaborating or hiring me for your next project? <br><br>
+        I specialize in web development with HTML, CSS, JS, Python, and C.
+        Feel free to reach out using the form.
+      </p>
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <form name="contact" method="POST" data-netlify="true" class="right-section">
+      <input type="hidden" name="form-name" value="contact" />
+      <h2>Contact Me</h2>
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-comment-dots"></i>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+    </form>
+  </div>
+  </div>
+  </section> 
+  
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/ms_indhu_24?igsh=MWQ5cGRuajZzcXUybQ=="><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/indhu-aruna-s-87571a347"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Aruna246"><i class="fab fa-github"></i></a>
+    </div>
+    <p>&copy; 2025 Indhu Aruna. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
